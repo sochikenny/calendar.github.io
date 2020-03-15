@@ -15,7 +15,7 @@ body {
   
   .jumbotron {
     text-align: center;
-    background-color: transparent;
+    background-color: turquoise;
     color: black;
     border-radius: 0;
     border-bottom: 10px solid black;
@@ -37,6 +37,11 @@ body {
     width: 100%;
     display: grid;
     grid-template-columns: 20% 60% 20%;
+  }
+
+  span{
+    background-color: salmon;
+    text-decoration: solid; 
   }
   
   .hour {
