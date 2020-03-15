@@ -5,14 +5,15 @@ $(document).ready(function () {
         var div = $("<div>");
         div.attr("class", "row");
 
+        var span = $("<span>");
+        span.text (hours[i]);
+
         var input = $("<input>");
         input.attr("id", i);
 
-        var span = $("<span>");
-        span.text (hours[i]);
-        
         var button = $("<button>");
         button.attr("data-ref", i);
+        button.text("Save");
 
         if (localStorage.getItem(i)) {
         input.val(localStorage.getItem(i));
